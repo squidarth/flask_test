@@ -2,7 +2,9 @@
 
 ### Setting up Vagrant
 
-Visit http://downloads.vagrantup.com/tags/v1.3.3 and download the appropriate
+To set up Vagrant, you first need to install VirtualBox
+from https://www.virtualbox.org/wiki/Downloads.  Visit
+http://downloads.vagrantup.com/tags/v1.3.3 and download the appropriate
 version. Once this is installed, simply type clone this repository and  type
 `vagrant up` into your command line.  This will start a virtual machine with
 all the libraries you need installed to start writing your Flask application.
@@ -16,4 +18,9 @@ access any files from your  own machine from this folder.  So type
 application I have loaded.  You should be able to load up localhost:5000 in
 your browser and see Hello World.
 
-#### Happy Hacking!
+### Wish List
+
+* Full-featured app
+* Put the app in its own folder
+
+Happy Hacking!
