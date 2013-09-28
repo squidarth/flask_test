@@ -22,5 +22,6 @@ your browser and see Hello World.
 
 * Full-featured app
 * Put the app in its own folder
+* Other development environments?
 
 Happy Hacking!
