@@ -9,6 +9,10 @@ version. Once this is installed, simply type clone this repository and  type
 `vagrant up` into your command line.  This will start a virtual machine with
 all the libraries you need installed to start writing your Flask application.
 
+If you would like to add other software to your Vagrant box, edit the file
+`bootstrap.sh`.  Run `vagrant provision` to re-run the bootstrap script
+on Vagrant.
+
 ### Running Flask
 
 Once you have started Vagrant, type `vagrant ssh` to ssh into your virtual
