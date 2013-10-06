@@ -16,7 +16,7 @@ on Vagrant.
 ### Running Flask
 
 Once you have started Vagrant, type `vagrant ssh` to ssh into your virtual
-machine.  The folder `/vagrant` is mirrored on your own machine and you can
+machine.  The VM's root folder, `/vagrant`, is mirrored on your own machine and you can
 access any files from your  own machine from this folder.  So type
 `cd /vagrant` and then `python application.py` to start the sample Python
 application I have loaded.  You should be able to load up localhost:5000 in
@@ -25,7 +25,8 @@ your browser and see Hello World.
 ### Wish List
 
 * Full-featured app
-* Put the app in its own folder
+* Setup Nginx
 * Other development environments?
 
 Happy Hacking!
+
